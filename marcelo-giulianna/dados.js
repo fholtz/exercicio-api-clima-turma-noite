@@ -1,4 +1,4 @@
-const cidade = document.querySelector('#cidade');
+const cidade = document.querySelector('#city');
 
 const botao = document.querySelector('#buscar');
 
@@ -19,6 +19,7 @@ botao.addEventListener('click', function (e) {
 
                 .then(function (data) {
                     console.log(data);
+                    showdata(data)
                 })
         })
 
