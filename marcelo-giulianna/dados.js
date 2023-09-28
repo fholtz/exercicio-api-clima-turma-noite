@@ -5,7 +5,7 @@ const botao = document.querySelector('#buscar');
 botao.addEventListener('click', function (e) {
 
     let search = cidade.value;
-
+aa
     const options = {
         method: 'GET',
         mode: 'cors',
